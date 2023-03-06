@@ -8,3 +8,11 @@ function onSuccess() {
 }
 
 // console.log(onSuccess());
+
+///---///
+
+function onError() {
+  return notify({ message: "ERROR" });
+}
+
+// console.log(onError());
