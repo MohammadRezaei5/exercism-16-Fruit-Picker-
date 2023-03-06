@@ -33,3 +33,11 @@ function orderFromGrocer(query, onSuccessCallback, onErrorCallback) {
 //   exampleSuccessCallback,
 //   exampleErrorCallback
 // );
+
+///---///
+
+function postOrder(variety, quantity) {
+  return order({ variety, quantity }, onSuccess, onError);
+}
+
+// console.log(postOrder('peach', 100));
