@@ -16,3 +16,20 @@ function onError() {
 }
 
 // console.log(onError());
+
+///---///
+
+// const query = {
+//   variety: string,
+//   quantity: number
+// };
+
+function orderFromGrocer(query, onSuccessCallback, onErrorCallback) {
+  return order(query, onSuccessCallback, onErrorCallback);
+}
+
+// orderFromGrocer(
+//   { variety: "pear", quantity: 12 },
+//   exampleSuccessCallback,
+//   exampleErrorCallback
+// );
